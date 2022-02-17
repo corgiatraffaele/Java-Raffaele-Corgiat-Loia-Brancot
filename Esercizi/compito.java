@@ -8,7 +8,7 @@ public class compito {
     String cod = Integer.toString(codice);
     int somma = 0;
     int contatore =0;
-    int tentativi = 0;
+    int tentativi = 10;
     String n = new String();
 
         while(tentativi > 0){
@@ -20,7 +20,7 @@ public class compito {
 
             if( n.charAt(i) == cod.charAt(i)) {
                 num +=1;
-                somma = somma +(n.charAt(i));
+                somma = somma +(n.charAt(i) - '0');
                 contatore ++;
             }else if(n.charAt(i)< cod.charAt(i)){
                 num += i;
@@ -34,11 +34,9 @@ public class compito {
         }
 
         tentativi --;
-        System.out.println("la somma dei numeri corretti è: ");
+        System.out.println("la somma dei numeri corretti è: "+ somma);
         contatore = 0;
-        somma = 0;
-      
-
+            
         }
 
     }
