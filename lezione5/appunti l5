@@ -1,0 +1,17 @@
+
+       //la firma è il nome ed i parametri in input,
+            //per far si che accetti parametri diversi si fa l'overloading
+            //per questo qui abbiamo due stampa
+            //definire piùmetodi con lo stesso nome ma parametri diversi
+
+
+            //l'overriding invece  è la ridefinizione di un metodo che è già presente in una
+            // sottocrasse e deve avere la stessa firma ( non si può cambiare il tipo di ritorno)
+
+
+            //la classe OBJECT : tutte le classi ereditano da object
+            // ha come parametri :
+            //equals() e to string();
+
+            //tipo reale: quello che fa new e viene salvato nello heap
+            //tipo apparente quello che finisce nello stack

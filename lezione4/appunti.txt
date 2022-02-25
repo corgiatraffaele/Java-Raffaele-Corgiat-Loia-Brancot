@@ -1,0 +1,11 @@
+public class = creamo una classe( la classe è uno stampo )
+        definisce le proprietà di tutti gli oggetti che fanno partr di quella classe
+        definendo i dati(variabili) e i metodi 
+        deve avere lo stesso nome del file.java
+        vanno con l alettera maiuscola
+        i metodi minuscola
+
+
+new= inizializziamo un oggetto (è ciò che stampiamo) ogni oggetto è un istanza della classe
+
+
